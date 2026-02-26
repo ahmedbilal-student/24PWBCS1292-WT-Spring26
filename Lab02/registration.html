@@ -1,43 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Registration Form</title>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
 </head>
 <body>
+    <h1>Student Registration</h1>
 
-<h1>Student Registration</h1>
+    <form name="registration" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="registration">
 
-<form action="https://formspree.io/f/mykdolng" method="POST">
-    Name: <input type="text" name="name" required><br><br>
+        Name: <input type="text" name="name" required><br><br>
+        Registration Number: <input type="text" name="reg_no" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Password: <input type="password" name="password" required><br><br>
 
-    Registration Number: <input type="text" name="reg_no" required><br><br>
+        Course:
+        <select name="course" required>
+            <option>Web Technologies</option>
+            <option>Database</option>
+            <option>AI</option>
+            <option>Operating Systems</option>
+            <option>Linear Algebra</option>
+        </select><br><br>
 
-    Email: <input type="email" name="email" required><br><br>
+        Semester:
+        <input type="radio" name="semester" value="1"> 1
+        <input type="radio" name="semester" value="2"> 2
+        <input type="radio" name="semester" value="3"> 3
+        <input type="radio" name="semester" value="4"> 4
+        <br><br>
 
-    Password: <input type="password" name="password" required><br><br>
+        <input type="checkbox" name="terms" required> I accept terms<br><br>
 
-    Course:
-    <select name="course" required>
-        <option>Web Technologies</option>
-        <option>Database</option>
-        <option>AI</option>
-        <option>Operating Systems</option>
-        <option>Linear Algebra</option>
-    </select>
-    <br><br>
-
-    Semester:
-    <input type="radio" name="semester" value="1"> 1
-    <input type="radio" name="semester" value="2"> 2
-    <input type="radio" name="semester" value="3"> 3
-    <input type="radio" name="semester" value="4"> 4
-    <br><br>
-
-    <input type="checkbox" name="terms" required> I accept terms
-    <br><br>
-
-    <button type="submit">Register</button>
-</form>
-
+        <button type="submit">Register</button>
+    </form>
 </body>
 </html>
