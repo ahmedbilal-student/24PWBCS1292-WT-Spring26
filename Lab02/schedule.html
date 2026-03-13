@@ -1,121 +1,231 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Spring 2026 Schedule</title>
+<title>Spring 2026 Schedule</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#333;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#555;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+background:white;
+padding:30px;
+box-shadow:0 0 10px gray;
+overflow-x:auto;
+}
+
+h1,h2,h3,p{
+text-align:center;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th{
+background:#333;
+color:white;
+padding:12px;
+}
+
+td{
+padding:12px;
+border:1px solid #bbb;
+text-align:center;
+}
+
+tr:nth-child(even){
+background:#f2f2f2;
+}
+
+tr:hover{
+background:#e2e2e2;
+}
+
+.theory{
+background:#d4edff;
+}
+
+.lab{
+background:#ffb9f9;
+}
+
+.religion{
+background:#a5ffb5;
+}
+
+.break{
+background:#ffd6d6;
+font-weight:bold;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#007bff;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.button:hover{
+background:#0056b3;
+}
+
+footer{
+margin-top:30px;
+text-align:center;
+padding:15px;
+background:#333;
+color:white;
+}
+
+</style>
+
 </head>
+
 <body>
-    <nav>
-<a href="index.html">Home</a> |
-<a href="profile.html">Profile</a> |
+
+<header>
+<h1>Ahmed Bilal Portfolio</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="profile.html">Profile</a>
 <a href="registration.html">Register</a>
 </nav>
-<hr>
+
+<div class="container">
 
 <h1>My Spring 2026 Schedule</h1>
 <h2>BS Computer Science - Section B</h2>
 <h3>Spring 2026 - 4th Semester</h3>
 <p>University of Engineering & Technology Peshawar</p>
 
-<hr>
-
-<table border="1">
+<table>
 
 <tr>
-    <th>Time</th>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
+<th>Time</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
 </tr>
 
 <tr>
-    <td>08:00 - 08:50</td>
-    <td rowspan = "2">Introduction to Data Science (T)</td>
-    <td rowspan = "3">Linear Algebra</td>
-    <td rowspan = "3">Operating Systems (L)</td>
-    <td rowspan = "3">Artificial Intelligence (T)</td>
-    <td rowspan="3">Quran Tarjuma & Tafseer</td>
+<td>08:00 - 08:50</td>
+<td class="theory" rowspan="2">Introduction to Data Science (T)</td>
+<td class="theory" rowspan="3">Linear Algebra</td>
+<td class="lab" rowspan="3">Operating Systems (L)</td>
+<td class="theory" rowspan="3">Artificial Intelligence (T)</td>
+<td class="religion" rowspan="3">Quran Tarjuma & Tafseer</td>
 </tr>
 
 <tr>
-    <td>08:50 - 09:40</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+<td>08:50 - 09:40</td>
 </tr>
 
 <tr>
-    <td>09:40 - 10:30</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+<td>09:40 - 10:30</td>
+<td></td>
 </tr>
 
 <tr>
-    <td>10:30 - 11:20</td>
-    <td></td>
-    <td rowspan = "2">Operating Systems (T)</td>
-    <td rowspan = "3">Applied Physics</td>
-    <td rowspan = "3">Web Technologies (L)</td>
-    <td rowspan = "3">Introduction to Data Science (L)</td>
+<td>10:30 - 11:20</td>
+<td></td>
+<td class="theory" rowspan="2">Operating Systems (T)</td>
+<td class="theory" rowspan="3">Applied Physics</td>
+<td class="lab" rowspan="3">Web Technologies (L)</td>
+<td class="lab" rowspan="3">Introduction to Data Science (L)</td>
 </tr>
 
 <tr>
-    <td>11:20 - 12:10</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+<td>11:20 - 12:10</td>
+<td></td>
 </tr>
 
 <tr>
-    <td>12:10 - 01:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+<td>12:10 - 01:00</td>
+<td></td>
+<td></td>
+</tr>
+
+<tr class="break">
+<td>01:00 - 01:30</td>
+<td colspan="5">Nimaz Break</td>
 </tr>
 
 <tr>
-    <td>01:00 - 01:30</td>
-    <td colspan="5">Nimaz Break</td>
+<td>01:30 - 02:20</td>
+<td></td>
+<td class="lab" rowspan="3">Artificial Intelligence (L)</td>
+<td class="theory" rowspan="2">Web Technologies (T)</td>
+<td></td>
+<td></td>
 </tr>
 
 <tr>
-    <td>01:30 - 02:20</td>
-    <td></td>
-    <td rowspan = "3">Artificial Intelligence (L)</td>
-    <td rowspan = "2">Web Technologies (T)</td>
-    <td></td>
-    <td></td>
+<td>02:20 - 03:10</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 
 <tr>
-    <td>02:20 - 03:10</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-
-<tr>
-    <td>03:10 - 04:00</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+<td>03:10 - 04:00</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 
 </table>
 
-<br>
-<a href="index.html">Back to Home</a>
+<div style="text-align:center">
+<a class="button" href="index.html">Back to Home</a>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Ahmed Bilal</p>
+</footer>
 
 </body>
 </html>

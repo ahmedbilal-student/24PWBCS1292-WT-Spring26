@@ -1,20 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Profile</title>
+<title>My Profile</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+line-height:1.6;
+}
+
+header{
+background:#333;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+nav{
+background:#555;
+text-align:center;
+padding:12px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-weight:bold;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+background:white;
+padding:30px;
+box-shadow:0 0 10px gray;
+}
+
+img{
+display:block;
+margin:auto;
+width:200px;
+border-radius:50%;
+border:4px solid #333;
+}
+
+h1{
+text-align:center;
+color:#333;
+}
+
+h3{
+margin-top:30px;
+color:#444;
+}
+
+p{
+font-size:17px;
+}
+
+.contact a{
+color:blue;
+text-decoration:none;
+}
+
+.contact a:hover{
+text-decoration:underline;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#007bff;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.button:hover{
+background:#0056b3;
+}
+
+footer{
+margin-top:30px;
+text-align:center;
+padding:15px;
+background:#333;
+color:white;
+}
+
+</style>
+
 </head>
+
 <body>
 
+<header>
+<h1>Ahmed Bilal</h1>
+</header>
+
 <nav>
-<a href="index.html">Home</a> |
-<a href="schedule.html">Schedule</a> |
+<a href="index.html">Home</a>
+<a href="schedule.html">Schedule</a>
 <a href="registration.html">Register</a>
 </nav>
-<hr>
 
-<h1>Ahmed Bilal</h1>
+<div class="container">
 
-<img src="https://github.com/ahmedbilal-student/24PWBCS1292-WT-Spring26/raw/master/assets/images/profile.png" alt="My Photo" width="200">
+<img src="https://github.com/ahmedbilal-student/24PWBCS1292-WT-Spring26/raw/master/assets/images/profile.png">
 
 <p>
 I’m a dedicated programming enthusiast currently in 4th semester, studying at University of Engineering & Technology Peshawar 
@@ -24,10 +126,19 @@ I’m on the path to learning the MERN stack and becoming a good full-stack web 
 </p>
 
 <h3>Contact Information</h3>
-<p>Email: <a href="mailto:24pwbcs1292@uetpeshawar.edu.pk">24pwbcs1292@uetpeshawar.edu.pk </a> </p>
-<p>Phone: +923231234567</p>
 
-<a href="index.html">Back to Home</a>
+<div class="contact">
+<p>Email: <a href="mailto:24pwbcs1292@uetpeshawar.edu.pk">24pwbcs1292@uetpeshawar.edu.pk</a></p>
+<p>Phone: +923231234567</p>
+</div>
+
+<a class="button" href="index.html">Back to Home</a>
+
+</div>
+
+<footer>
+<p>2026 Ahmed Bilal</p>
+</footer>
 
 </body>
 </html>
