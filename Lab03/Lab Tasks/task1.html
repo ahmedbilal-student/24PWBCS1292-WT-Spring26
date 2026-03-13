@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Task 1 - CSS Selectors</title>
+
+<style>
+
+/* Universal Selector */
+*{
+font-family: Arial, sans-serif;
+margin:0;
+padding:0;
+}
+
+/* Element Selector */
+h1{
+color:darkblue;
+text-align:center;
+margin-top:20px;
+}
+
+/* Class Selector */
+.highlight{
+color:white;
+background:green;
+padding:5px;
+}
+
+/* ID Selector */
+#special{
+color:red;
+font-weight:bold;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+border:2px solid blue;
+padding:5px;
+}
+
+/* Pseudo Class */
+a:hover{
+color:orange;
+}
+
+/* Pseudo Class */
+li:first-child{
+color:blue;
+}
+
+/* Pseudo Class */
+li:last-child{
+color:purple;
+}
+
+/* Pseudo Element */
+p::first-letter{
+font-size:30px;
+color:red;
+}
+
+/* Pseudo Element */
+p::selection{
+background:black;
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>CSS Selectors Demonstration</h1>
+
+<br><br>
+
+<p>This paragraph shows pseudo-element styling.</p>
+
+<br>
+
+<p class="highlight">This paragraph uses a class selector.</p>
+
+<br>
+
+<p id="special">This paragraph uses an ID selector.</p>
+
+<br>
+
+<h3>Attribute Selector Example</h3>
+
+<input type="text" placeholder="Enter your name">
+
+<br><br>
+
+<h3>Pseudo Class Example</h3>
+
+<a href="#">Hover over this link</a>
+
+<br><br>
+
+<h3>List Example</h3>
+
+<ul>
+
+<li>First item</li>
+
+<li>Second item</li>
+
+<li>Third item</li>
+
+</ul>
+
+</body>
+
+</html>
