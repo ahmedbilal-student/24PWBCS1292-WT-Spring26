@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Task 4 - Image Gallery</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f4f4;
+text-align:center;
+}
+
+h1{
+margin-top:20px;
+color:#333;
+}
+
+/* Gallery container */
+
+.gallery{
+display:grid;
+grid-template-columns: repeat(3, 1fr);
+gap:20px;
+width:70%;
+margin:auto;
+margin-top:30px;
+}
+
+/* Image styling */
+
+.gallery img{
+width:100%;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.3);
+transition:transform 0.4s, box-shadow 0.4s;
+}
+
+/* Hover effect */
+
+.gallery img:hover{
+transform:scale(1.08);
+box-shadow:0px 8px 20px rgba(0,0,0,0.5);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Image Gallery</h1>
+
+<div class="gallery">
+
+<img src="https://github.com/ahmedbilal-student/24PWBCS1292-WT-Spring26/raw/master/assets/images/nature1.jpg" alt="Image 1">
+
+<img src="https://github.com/ahmedbilal-student/24PWBCS1292-WT-Spring26/raw/master/assets/images/nature2.jpg" alt="Image 2">
+
+<img src="https://github.com/ahmedbilal-student/24PWBCS1292-WT-Spring26/raw/master/assets/images/nature3.jpg" alt="Image 3">
+
+<img src="https://github.com/ahmedbilal-student/24PWBCS1292-WT-Spring26/raw/master/assets/images/bg.jpg" alt="Image 4">
+
+</div>
+
+</body>
+
+</html>

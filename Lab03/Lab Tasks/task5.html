@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Task 5 - Styled Buttons</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f4f4f4;
+text-align:center;
+padding-top:40px;
+}
+
+h1{
+margin-bottom:30px;
+}
+
+.btn{
+border:none;
+cursor:pointer;
+margin:10px;
+transition:all 0.3s ease;
+box-shadow:0 4px 8px rgba(0,0,0,0.3);
+}
+
+.btn-small{
+padding:8px 15px;
+font-size:14px;
+background:#3498db;
+color:white;
+border-radius:4px;
+}
+
+.btn-medium{
+padding:12px 25px;
+font-size:16px;
+background:#2ecc71;
+color:white;
+border-radius:8px;
+}
+
+.btn-large{
+padding:16px 35px;
+font-size:18px;
+background:#e74c3c;
+color:white;
+border-radius:30px;
+}
+
+.btn-gradient{
+padding:12px 25px;
+font-size:16px;
+color:white;
+border-radius:20px;
+background:linear-gradient(45deg,#6a11cb,#2575fc);
+}
+
+.btn:hover{
+transform:scale(1.08);
+box-shadow:0 6px 14px rgba(0,0,0,0.4);
+}
+
+.btn:focus{
+outline:none;
+box-shadow:0 0 12px #333;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Styled Buttons</h1>
+
+<button class="btn btn-small">Small Button</button>
+
+<button class="btn btn-medium">Medium Button</button>
+
+<button class="btn btn-large">Large Button</button>
+
+<button class="btn btn-gradient">Gradient Button</button>
+
+</body>
+
+</html>
