@@ -1,0 +1,21 @@
+.box{
+border:2px solid black;
+padding:10px;
+margin:10px;
+}
+
+ul li:first-child{
+color:red;
+}
+
+ul li:last-child{
+color:blue;
+}
+
+a:hover{
+color:green;
+}
+
+input:focus{
+border:2px solid blue;
+}

@@ -1,0 +1,26 @@
+body{
+text-align:center;
+}
+
+.poppins{
+font-family:'Poppins';
+font-size:20px;
+}
+
+.roboto{
+font-family:'Roboto';
+font-size:24px;
+}
+
+.playfair{
+font-family:'Playfair Display';
+font-size:26px;
+}
+
+.uppercase{
+text-transform:uppercase;
+}
+
+.shadow{
+text-shadow:2px 2px 5px gray;
+}

@@ -1,0 +1,28 @@
+body{
+font-family: Arial;
+margin: 20px;
+background:#f4f4f4;
+}
+
+h1{
+color:#333;
+}
+
+.color-bg{
+background:lightblue;
+padding:30px;
+margin:20px 0;
+}
+
+.image-bg{
+background-image:url("../images/backgrounds/bg.jpg");
+height:200px;
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+.gradient-bg{
+background:linear-gradient(to right, red, yellow);
+padding:30px;
+margin-top:20px;
+}
