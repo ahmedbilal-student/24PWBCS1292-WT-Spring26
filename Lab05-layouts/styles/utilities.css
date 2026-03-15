@@ -1,0 +1,19 @@
+.text-center{
+    text-align:center;
+}
+
+.margin{
+    margin:20px;
+}
+
+.padding{
+    padding:20px;
+}
+
+.border{
+    border:2px solid #000;
+}
+
+.rounded{
+    border-radius:10px;
+}

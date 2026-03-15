@@ -1,0 +1,44 @@
+@media (max-width:992px){
+
+.dashboard{
+    grid-template-columns:200px 1fr;
+}
+
+}
+
+@media (max-width:768px){
+
+.flex-container{
+    flex-direction:column;
+}
+
+.nav{
+    flex-direction:column;
+    text-align:center;
+}
+
+.column{
+    width:100%;
+}
+
+.dashboard{
+    grid-template-columns:1fr;
+}
+
+}
+
+@media (max-width:480px){
+
+body{
+    padding:10px;
+}
+
+h1,h2{
+    font-size:20px;
+}
+
+.grid-container{
+    grid-template-columns:1fr;
+}
+
+}

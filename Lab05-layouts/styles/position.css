@@ -1,0 +1,33 @@
+.relative{
+    position:relative;
+    left:40px;
+    background:#90ee90;
+    padding:20px;
+}
+
+.absolute-box{
+    position:absolute;
+    top:150px;
+    right:40px;
+    background:#ff7f7f;
+    padding:20px;
+}
+
+.fixed-header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background:#000;
+    color:#fff;
+    padding:10px;
+    text-align:center;
+    z-index:1000;
+}
+
+.sticky{
+    position:sticky;
+    top:0;
+    background:#ffe2ab;
+    padding:10px;
+}
